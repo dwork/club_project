@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Club Project feature.
+ */
+
+include_once 'club_project.features.inc';
