@@ -37,15 +37,6 @@ function club_project_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: delete terms in 7.
-  $permissions['delete terms in 7'] = array(
-    'name' => 'delete terms in 7',
-    'roles' => array(
-      0 => 'administrator',
-    ),
-    'module' => 'taxonomy',
-  );
-
   // Exported permission: edit any project content.
   $permissions['edit any project content'] = array(
     'name' => 'edit any project content',
@@ -62,15 +53,6 @@ function club_project_user_default_permissions() {
       0 => 'administrator',
     ),
     'module' => 'node',
-  );
-
-  // Exported permission: edit terms in 7.
-  $permissions['edit terms in 7'] = array(
-    'name' => 'edit terms in 7',
-    'roles' => array(
-      0 => 'administrator',
-    ),
-    'module' => 'taxonomy',
   );
 
   return $permissions;
