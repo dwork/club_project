@@ -206,8 +206,8 @@ function club_project_field_default_fields() {
           'sort' => array(
             'direction' => 'ASC',
             'field' => 'field_date:value',
-            'property' => 'nid',
-            'type' => 'none',
+            'property' => 'title',
+            'type' => 'property',
           ),
           'target_bundles' => array(
             'chapter' => 'chapter',
