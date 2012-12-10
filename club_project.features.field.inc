@@ -20,6 +20,9 @@ function club_project_field_default_fields() {
         0 => 'node',
       ),
       'field_name' => 'body',
+      'field_permissions' => array(
+        'type' => '0',
+      ),
       'foreign keys' => array(
         'format' => array(
           'columns' => array(
@@ -180,6 +183,9 @@ function club_project_field_default_fields() {
       'deleted' => '0',
       'entity_types' => array(),
       'field_name' => 'field_chapter',
+      'field_permissions' => array(
+        'type' => '2',
+      ),
       'foreign keys' => array(
         'node' => array(
           'columns' => array(
@@ -196,6 +202,7 @@ function club_project_field_default_fields() {
       'locked' => '0',
       'module' => 'entityreference',
       'settings' => array(
+        'behaviors' => array(),
         'handler' => 'base',
         'handler_settings' => array(
           'behaviors' => array(
@@ -859,6 +866,9 @@ function club_project_field_default_fields() {
       'deleted' => '0',
       'entity_types' => array(),
       'field_name' => 'field_website',
+      'field_permissions' => array(
+        'type' => '0',
+      ),
       'foreign keys' => array(),
       'indexes' => array(),
       'locked' => '0',
